@@ -26,7 +26,7 @@ const VideoChat = () => {
         variant: "destructive",
       });
     },
-    onError: (error) => {
+    onError: (error: Error) => {
       toast({
         title: "Error",
         description: error.message,
